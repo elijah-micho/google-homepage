@@ -4,6 +4,7 @@
     <head>
         <link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+        <script src="https://use.fontawesome.com/131eac329d.js"></script>
     </head>
 
     <body>
@@ -16,15 +17,15 @@
             <ul class="right-links">
                 <li><a>Gmail</a></li>
                 <li><a>Images</a></li>
-                <li><a>Apps</a></li>
-                <li><button>Sign In</button></a></li>
+                <li><a id="apps-link"><i class="fa fa-th"></i></a></li>
+                <li><button id="login-btn">Sign In</button></a></li>
             </ul>
         </div>
 
         <div id="main-box">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92px" width="272px"/>
+            <a><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92px" width="272px"/></a>
             <form id="search-form">
-                <input type="text" id="search-field"/>
+                <input type="text" id="search-field" size="60"/>
                 <input type="button" value="Google Search"/>
                 <input type="button" value="I'm Feeling Lucky"/>
             </form>
